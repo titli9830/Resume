@@ -1,0 +1,11 @@
+body {
+  padding: 30px;
+}
+
+.sidebar-wrapper .contact-list li {
+  margin-bottom: 10px;
+}
+
+.sidebar-wrapper .interests-list li {
+  margin-bottom: 5px;
+}

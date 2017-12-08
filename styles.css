@@ -1,13 +1,38 @@
-/*   
- * Template Name: Orbit - Responsive Resume/CV Template for Developers
- * Version: 1.0
- * Author: Xiaoying Riley
- * Twitter: @3rdwave_themes
- * License: Creative Commons Attribution 3.0 License
- * Website: http://themes.3rdwavemedia.com/
-*/
-/* styles-4.css */
-/* ======= Base ======= */
+body {
+  font-family: 'Merriweather Sans';
+  color: slategrey;
+  background: white;
+  font-size: 14px;
+  padding: 30px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.name {
+  font-size: 200%;
+  font-weight: bold;
+}
+.section-header {
+  text-transform: uppercase;
+  color: deepskyblue;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.company-name {
+  font-weight: bolder;
+}
+.job-role {
+  font-style: italic;
+}
+.job-header {
+  color: darkslategrey;
+}
+.job-duration {
+  font-family: 'Open Sans';
+  color: lightslategrey;
+  font-size: 80%;
+}
+/*
 body {
   font-family: 'Roboto', sans-serif;
   color: #545E6C;
@@ -26,7 +51,7 @@ h6 {
   font-weight: 700;
 }
 a {
-  color: #6e3852;
+  color: #2d7788;
   -webkit-transition: all 0.4s ease-in-out;
   -moz-transition: all 0.4s ease-in-out;
   -ms-transition: all 0.4s ease-in-out;
@@ -34,7 +59,7 @@ a {
 }
 a:hover {
   text-decoration: underline;
-  color: #3c1e2c;
+  color: #1a454f;
 }
 a:focus {
   text-decoration: none;
@@ -43,7 +68,7 @@ p {
   line-height: 1.5;
 }
 .wrapper {
-  background: #A15277;
+  background: #42A8C0;
   max-width: 960px;
   margin: 0 auto;
   position: relative;
@@ -52,7 +77,7 @@ p {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
 }
 .sidebar-wrapper {
-  background: #A15277;
+  background: #42A8C0;
   position: absolute;
   right: 0;
   width: 240px;
@@ -161,7 +186,7 @@ p {
   text-transform: uppercase;
   font-size: 20px;
   font-weight: 500;
-  color: #6e3852;
+  color: #2d7788;
   position: relative;
   margin-top: 0;
   margin-bottom: 20px;
@@ -180,7 +205,7 @@ p {
   -moz-background-clip: padding;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background: #6e3852;
+  background: #2d7788;
   text-align: center;
   padding-top: 8px;
   font-size: 16px;
@@ -242,7 +267,7 @@ p {
 }
 .skillset .level-bar-inner {
   height: 12px;
-  background: #bf819e;
+  background: #7bc2d3;
 }
 .footer {
   padding: 30px;
@@ -256,40 +281,5 @@ p {
 .footer .fa-heart {
   color: #fb866a;
 }
-/* Extra small devices (phones, less than 768px) */
-@media (max-width: 767px) {
-  .sidebar-wrapper {
-    position: static;
-    width: inherit;
-  }
-  .main-wrapper {
-    padding: 30px;
-  }
-  .main-wrapper .time {
-    position: static;
-    display: block;
-    margin-top: 5px;
-  }
-  .main-wrapper .upper-row {
-    margin-bottom: 0;
-  }
-}
-/* Small devices (tablets, 768px and up) */
-/* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
-  .skillset .level-title {
-    display: inline-block;
-    float: left;
-    width: 30%;
-    margin-bottom: 0;
-  }
-  .skillset .level-bar {
-    display: inline-block;
-    width: 70%;
-    float: left;
-    position: relative;
-    top: 1px;
-  }
-}
-/* Large devices (large desktops, 1200px and up) */
-/* Ex-Large devices (large desktops, 1200px and up) */
+
+*/

@@ -32,6 +32,10 @@ body {
   color: lightslategrey;
   font-size: 80%;
 }
+.job-description {
+  margin-top: 10px;
+}
+
 /*
 body {
   font-family: 'Roboto', sans-serif;

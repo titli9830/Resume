@@ -3,7 +3,7 @@
     color: slategrey;
     background: white;
     font-size: 14px;
-    padding: 30px;
+    padding: 40px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
@@ -79,6 +79,10 @@
 
 .font-180 {
   font-size: 180%;
+}
+
+.font-200 {
+  font-size: 200%;
 }
 
 .fa-stackoverflow-color{

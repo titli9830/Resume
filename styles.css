@@ -64,6 +64,10 @@
 .margin-top-40 {
   margin-top: 40px;
 }
+
+.font-bold {
+  font-weight: bolder;
+}
 /*
 body {
   font-family: 'Roboto', sans-serif;
